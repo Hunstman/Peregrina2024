@@ -3,8 +3,8 @@ layout: about
 title: About
 permalink: /about
 image: Sara_Tom_lago.jpeg
-subtitle_1: The idea
-subtitle_2: Who realized it
+subtitle_1: The idea... Sara and Tommaso
+subtitle_2: Helpers
 ---
 
   <h2>
@@ -35,7 +35,7 @@ The brainchild of this incredible initiative was conceived by Sara and me, both 
 </div>
 
 <div class="team-member">
-    <img src="{{ site.github.url }}/assets/img/Chiara_e_Elisa.jpg" alt="Chiara Consonni">
+    <img src="{{ site.github.url }}/assets/img/Chiara_consonni.jpeg" alt="Chiara Consonni">
     <div class="team-member-description">
         <h3>Chiara Consonni</h3>
         <p>Drivers and co-organizers of the event.</p>

@@ -44,6 +44,7 @@ h4, h5, h6 {
 body {
   font-family: $base-font-family;
   color:$text-color;
+  text-align: justify;
 }
 
 body img {
@@ -81,6 +82,11 @@ li {
   margin-bottom: 1rem;
 }
 
+ul {
+  list-style-type: none;
+  padding : 0;
+}
+
 dt {
   font-weight: bold;
 }
@@ -93,7 +99,7 @@ dd {
 */
 
 a {
-  color: $brand-color;
+  color: $text-color;
   text-decoration: none;
 }
 
