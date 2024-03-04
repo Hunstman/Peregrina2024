@@ -15,7 +15,7 @@
 .featured-post h2 span {
   display: inline-block;
   color: white;
-  font: bold 24px/45px Helvetica, Sans-Serif;
+  font: bold 24px/45px $base-font-famil;
   letter-spacing: -1px;
   background: rgb(0, 0, 0); /* fallback color */
   background: rgba(0, 0, 0, 0.7);
@@ -61,12 +61,12 @@ Video
 */
 
 .video-container {
-  width: 100vw;
+  width: 100%;
 }
 
 .video {
-  width: 100vw; /* 100% of the viewport width */
-  height: 95vh; /* 100% of the viewport height */
+  width: 100%; /* 100% of the viewport width */
+  height: 95%; /* 100% of the viewport height */
   object-fit: cover; /* Ensure video covers the entire viewport */
   justify-content: center;
   align-items: center;
