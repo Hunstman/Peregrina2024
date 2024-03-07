@@ -1,6 +1,6 @@
 # Site Build Settings
-url: Hunstman.github.io
-baseurl: /Peregrina2024
+# url: Hunstman.github.io
+# baseurl: /Peregrina2024
 # jekyll-paginate configuration
 paginate:            5
 

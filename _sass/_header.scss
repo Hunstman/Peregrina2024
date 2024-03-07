@@ -43,7 +43,7 @@
 /*
   Responsiveness with a dropdown menu
 */
-@media (max-width: 797px) {
+@media (max-width:$pixel-mobile) {
   .dropbtn {
     display: block;
     background-color: $background-color;

@@ -1,6 +1,6 @@
 .featured-post {
   height: $container-width;
-  min-height: 300px;
+  min-height: 500px;
   margin: 5px 10px 10px;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,6 +90,7 @@ Clock
   flex-direction: row;
   gap: 20px;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .countdown-info {
@@ -149,7 +150,7 @@ h1 {
 }
 
 /* Media query for mobile view */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: $pixel-mobile) {
   .countdown-container {
     flex-direction: column; /* Change to column layout for vertical alignment */
     align-items: center; /* Center items vertically */
@@ -157,6 +158,6 @@ h1 {
 
   .circle {
     margin-right: 0; /* Remove horizontal margin */
-    margin-bottom: 10px; /* Add vertical margin */
+    margin-bottom: 20px; /* Add vertical margin */
   }
 }
