@@ -2,10 +2,15 @@
 layout: subscribe
 title: #
 permalink: /subscription
-subtitle_1: Acceptance
+subtitle_0: Requirements
+subtitle_1: Subscription
+subtitle_2: Acceptance
 image: subscription_img.png
 ---
 
+<h2>
+{{ page.subtitle_0 }}
+</h2>
 
 Every team must statisfy a fixed set of requirements 
 
@@ -21,9 +26,15 @@ Please fill out the form below with these essential details, including the capta
 
 Lace up your running shoes, adhere to the fundamental rules, fill out the form, and send it over – the journey awaits!
 
-**Subscription** [HERE](https://docs.google.com/forms/d/e/1FAIpQLSc-1PXZ1esQXb5himpBbgzXfewCX1gL48W26v77ydbOuuMw0w/viewform?usp=sf_link).
 <h2>
 {{ page.subtitle_1 }}
 </h2>
 
+<button>
+[HERE](https://docs.google.com/forms/d/e/1FAIpQLSc-1PXZ1esQXb5himpBbgzXfewCX1gL48W26v77ydbOuuMw0w/viewform?usp=sf_link)
+</button>
+
+<h2>
+{{ page.subtitle_2 }}
+</h2>
 After subscription, the organizing committee will select teams beased on availability. The communication of acceptance will happen through mail. A small fee will be charged to participants to cover the end party and to collect money for the fundraising activity.
