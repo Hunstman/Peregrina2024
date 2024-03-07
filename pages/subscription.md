@@ -1,8 +1,9 @@
 ---
 layout: subscribe
-title: Subscription
+title: #
 permalink: /subscription
 subtitle_1: Acceptance
+image: subscription_img.png
 ---
 
 
