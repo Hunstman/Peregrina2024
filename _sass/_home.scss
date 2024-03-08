@@ -1,5 +1,5 @@
 .featured-post {
-  height: $container-width;
+  width: $container-width;
   min-height: 500px;
   margin: 5px 10px 10px;
   background-position: center;
@@ -84,22 +84,21 @@ Clock
 .countdown-container {
   width: $container-width;
   height: auto;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  gap: 20px;
   margin-top: 10px;
   margin-bottom: 20px;
 }
 
 .countdown-info {
-  text-align: left;
+  text-align: center;
 }
 
 .countdown-info .date,
 .countdown-info .location {
-  margin: 0;
+  margin: 10px;
   font-size: 25px;
   color: #FF914D;
 }
@@ -150,14 +149,27 @@ h1 {
 }
 
 /* Media query for mobile view */
-@media only screen and (max-width: $pixel-mobile) {
+@media (max-width: $pixel-mobile) {
   .countdown-container {
+    max-width: $container-width;
     flex-direction: column; /* Change to column layout for vertical alignment */
     align-items: center; /* Center items vertically */
+    display: block;
   }
-
+  
   .circle {
     margin-right: 0; /* Remove horizontal margin */
     margin-bottom: 20px; /* Add vertical margin */
+    width: $container-width/3;
+    height: auto;
+    min-height: $container-width/4;
+    font-size: 15px;
+  }
+  .value {
+    font-size: 20px;
+  }
+  
+  .label {
+    font-size: 16px;
   }
 }

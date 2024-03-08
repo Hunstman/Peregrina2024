@@ -2,7 +2,6 @@ form {
     max-width: 600px;
     margin: auto;
 }
-
 label {
     display: block;
     margin-bottom: 8px;
@@ -15,8 +14,11 @@ input, textarea {
 }
 button {
     padding: 10px;
+    margin: auto auto auto auto;
+    display: flex;
     background-color: $button-color;
-    color: white;
+    color: $text-color;
+    font-style: none;
     border: none;
     border-radius: 5px;
     cursor: pointer;

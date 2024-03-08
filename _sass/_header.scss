@@ -45,7 +45,7 @@
 */
 @media (max-width:$pixel-mobile) {
   .dropbtn {
-    display: block;
+    display: inline-flex;
     background-color: $background-color;
     color: white;
     padding: 16px;
@@ -59,12 +59,13 @@
     display: inline-block;
   }
   .dropdown-content {
-    display: none;
-    position: absolute right;
-    background-color:$background-color;
+    position: absolute;
+    right: 0;
+    background-color: $background-color;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    display: none; /* Initially hide the dropdown content */
   }
   .dropdown-content a {
     color:$orange-color;
@@ -72,16 +73,10 @@
     text-decoration: none;
     display: block;
   }
-  .dropdown-content a:hover {
-    background-color:$background-color;
-  }
   .dropdown:hover .dropdown-content {
     display: block;
   }
   .dropdown:hover .dropbtn {
     background-color:$background-color;
-  }
-  .menu-list {
-    display: none; /* Hide the regular menu on small screens */
   }
 }

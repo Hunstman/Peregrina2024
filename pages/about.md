@@ -1,10 +1,10 @@
 ---
 layout: about
-title: About
+title: About Us
 permalink: /about
 image: Sara_Tom_lago.jpeg
 subtitle_1: The idea... Sara and Tommaso
-subtitle_2: Helpers
+subtitle_2: Crew
 ---
 
   <h2>
@@ -19,33 +19,41 @@ The brainchild of this incredible initiative was conceived by Sara and me, both 
 
 
 <div class="team-member">
+    <h3>Francesco Redaelli</h3>
     <img src="{{ site.github.url }}/assets/img/Franci_redaelli.jpeg" alt="Francesco Redaelli">
     <div class="team-member-description">
-        <h3>Francesco Redaelli</h3>
         <p>Contributing to organizing and supporting athletes.</p>
     </div>
 </div>
 
 <div class="team-member">
+    <h3>Alessandro Cappelli</h3>
     <img src="{{ site.github.url }}/assets/img/Ale_cappelli.jpeg" alt="Alessandro Cappelli">
     <div class="team-member-description">
-        <h3>Alessandro Cappelli</h3>
-        <p>Official photographer of the event.</p>
+        <p>Photo/Video </p>
     </div>
 </div>
 
 <div class="team-member">
+    <h3>Chiara Consonni</h3>
     <img src="{{ site.github.url }}/assets/img/Chiara_consonni.jpeg" alt="Chiara Consonni">
     <div class="team-member-description">
-        <h3>Chiara Consonni</h3>
         <p>Drivers and co-organizers of the event.</p>
     </div>
 </div>
 
 <div class="team-member">
+<h3>Elisa Codara</h3>
 <img src="{{ site.github.url }}/assets/img/Elisa.jpeg" alt="Elisa Codara">
 <div class="team-member-description">
-    <h3>Elisa Codara</h3>
+    <p>Drivers and co-organizers of the event.</p>
+</div>
+</div>
+
+<div class="team-member">
+<h3>Andrea Vavassori</h3>
+<img src="{{ site.github.url }}/assets/img/AndreaVava.jpg" alt="Andrea Vavassori">
+<div class="team-member-description">
     <p>Drivers and co-organizers of the event.</p>
 </div>
 
