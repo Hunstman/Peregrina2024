@@ -1,12 +1,12 @@
 .post-content {
-  max-width: 600px;
+  max-width:$container-width;
   display: block;
   margin: 10px auto 10px;
 }
 .post-date {
   display: block;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #000000;
   font-size:0.8rem;
 }
 .featured-image img {
@@ -17,14 +17,14 @@
 
 @media (max-width: $pixel-mobile) {
   .post-content {
-    width: 90%;
+    width: $container-width;
     display: block;
     margin: 10px auto 10px;
   }
   .featured-image img {
+    width: $container-width;
     margin: 5px auto 5px;
     display: block;
-    max-width: 95%;
   }
 }
 

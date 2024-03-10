@@ -88,7 +88,7 @@ Clock
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 20px;
 }
 
@@ -160,9 +160,9 @@ h1 {
   .circle {
     margin-right: 0; /* Remove horizontal margin */
     margin-bottom: 20px; /* Add vertical margin */
-    width: $container-width/3;
+    width: 35px;
     height: auto;
-    min-height: $container-width/4;
+    min-height:35px;
     font-size: 15px;
   }
   .value {
