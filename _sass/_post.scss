@@ -1,5 +1,5 @@
 .post-content {
-  max-width:$container-width;
+  max-width: $container-width;
   display: block;
   margin: 10px auto 10px;
 }
@@ -10,9 +10,10 @@
   font-size:0.8rem;
 }
 .featured-image img {
-  margin: 5px auto 25px;
-  display: block;
   max-width: 600px;
+  margin: auto auto auto;
+  display: flex;
+  height: auto;
 }
 
 @media (max-width: $pixel-mobile) {
@@ -23,22 +24,22 @@
   }
   .featured-image img {
     width: $container-width;
-    margin: 5px auto 5px;
+    max-width: 600px;
+    height: auto;
+    margin: auto auto auto;
     display: block;
   }
 }
 
 @media (max-width: $tablet-width) {
   .post-content {
-    width: 80%;
+    max-width: 80%;
     display: block;
     margin: 10px auto 10px;
   }
   .featured-image img {
-    align-content: middle;
-    margin: 5px auto 25px;
-    display: block;
-    max-width: 95%;
+    margin-left: 0;
+    display: flex;
   }
 }
 
@@ -57,26 +58,22 @@
   padding-bottom: 1rem;
 }
 .related ul, ol, dl {
-  margin: 0px;
+  margin-left: 0px;
 }
 .related-posts {
   list-style: none;
 }
 .related-thumbnail {
   position: relative;
-  width: 600px;
-  height: auto;
   min-height: 200px;
-  overflow: hidden;
+  overflow: clip;
 }
 .related img {
-  position: absolute;
-  margin: auto auto auto auto;
-  width: 600px;
-  height: auto;
+  margin-left: 0;
 }
 .related-title {
-  float: right;
+  font-style: none;
+  padding-left: 10px;
   padding-bottom: .5rem;
   font-family: $base-font-family;
 }
@@ -84,12 +81,10 @@
 @media (max-width: $pixel-mobile) {
   .related-thumbnail{
     min-width: $container-width;
-    width: 70%;
   }
 }
 @media (max-width: $tablet-width) {
   .related-thumbnail{
     min-width:  $container-width;
-    width: 70%;
   }
 }

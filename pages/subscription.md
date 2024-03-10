@@ -14,6 +14,7 @@ image: subscription_img.png
 
 Every team must statisfy a fixed set of requirements 
 
+
 <ul>
     <li>Design a cool and fancy Team Name (prizes ...)</li>
     <li>Host 6 runners (+1 runner reserve)</li>
@@ -21,6 +22,8 @@ Every team must statisfy a fixed set of requirements
     <li>Have a motorized vehicle</li>
     <li>A team Captain</li>
 </ul>
+
+<hr>
 
 Please fill out the form below with these essential details, including the captain's name, team name, driver, and the names of athletes 2 through 6. Feel free to share any special messages or details in the provided space. Once you've completed the form, hit the "Subscribe" button, and you're all set to join us on a thrilling running adventure.
 
