@@ -22,7 +22,7 @@ The brainchild of this incredible initiative was conceived by Sara and me, both 
     <h3>Francesco Redaelli</h3>
     <img src="{{ site.github.url }}/assets/img/Franci_redaelli.jpeg" alt="Francesco Redaelli">
     <div class="team-member-description">
-        <p>Contributing to organizing and supporting athletes.</p>
+        Contributing to organizing and supporting athletes.
     </div>
 </div>
 
@@ -30,7 +30,7 @@ The brainchild of this incredible initiative was conceived by Sara and me, both 
     <h3>Alessandro Cappelli</h3>
     <img src="{{ site.github.url }}/assets/img/Ale_cappelli.jpeg" alt="Alessandro Cappelli">
     <div class="team-member-description">
-        <p>Photo/Video </p>
+        Photo/Video maker.
     </div>
 </div>
 
@@ -38,7 +38,7 @@ The brainchild of this incredible initiative was conceived by Sara and me, both 
     <h3>Chiara Consonni</h3>
     <img src="{{ site.github.url }}/assets/img/Chiara_consonni.jpeg" alt="Chiara Consonni">
     <div class="team-member-description">
-        <p>Drivers and co-organizers of the event.</p>
+        Driver and co-organizer of the event.
     </div>
 </div>
 
@@ -46,7 +46,7 @@ The brainchild of this incredible initiative was conceived by Sara and me, both 
 <h3>Elisa Codara</h3>
 <img src="{{ site.github.url }}/assets/img/Elisa.jpeg" alt="Elisa Codara">
 <div class="team-member-description">
-    <p>Drivers and co-organizers of the event.</p>
+    Driver and co-organizers of the event.
 </div>
 </div>
 
@@ -54,7 +54,7 @@ The brainchild of this incredible initiative was conceived by Sara and me, both 
 <h3>Andrea Vavassori</h3>
 <img src="{{ site.github.url }}/assets/img/AndreaVava.jpg" alt="Andrea Vavassori">
 <div class="team-member-description">
-    <p>Drivers and co-organizers of the event.</p>
+  Driver and co-organizers of the event.
 </div>
 
 </div>

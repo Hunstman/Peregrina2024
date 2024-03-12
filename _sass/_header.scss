@@ -59,8 +59,7 @@
     display: inline-block;
   }
   .dropdown-content {
-    display:none; /* Hide by default */
-    position: absolute;
+    position: inline-block;
     right: 0;
     background-color: $background-color;
     min-width: 160px;
@@ -74,7 +73,7 @@
     text-decoration: none;
   }
   .dropdown:hover .dropdown-content {
-    display: block;
+    display: none;
   }
   .dropdown:hover .dropbtn {
     background-color:$background-color;

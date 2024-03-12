@@ -13,7 +13,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "Peregrina"
 description:	       "Much more than a run" 
-author:              "Tommaso Redaelli" # , Francesco Redaelli & Alessandro Cappelli"
+author:              "Tommaso Redaelli" 
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
